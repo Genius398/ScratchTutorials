@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap'); 
 
 body {
     font-family: Arial;
@@ -7,34 +14,46 @@ body {
   /* Header/Logo Title */
 
 .header {
-    padding: 60px;
-    text-align: center;
+    padding: 0.1;
     background-color: #4d97ff;
     color: white;
-    font-size: 30px;
+}
+
+#head{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Nunito', sans-serif;
 }
   
 
 .content {
-    padding:20px;
-    display: flex;
-    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
+#tutorialHead{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 0.1;
+    font-family: 'Roboto Slab', serif;
+}
+
+#tutorialText{
+    text-align: left;
+    font-size: 22.5px;
+    padding-top: 0.1;
+    font-family: 'PT Sans', sans-serif;
+}
+
 
 .content>div{
     flex: 1 1 150px;
-    height: 450px;
-}
-
-.project_thumbnail{
-    height: 200px;
-    width: 250px;
-}
-
-.project{
-    width: fit-content;
     height: fit-content;
+    padding-top: 0.1;
+
 }
+
+
 
 .copy_right_footer{
     position: fixed;
@@ -45,3 +64,40 @@ body {
     line-height: 3;
     text-align: center;
 }
+
+
+#previousButton{
+    float: left !important;
+    border-bottom-left-radius: 100px !important;
+    border-top-left-radius: 100px !important;
+}
+
+#nextButton{
+    float: right !important;
+    border-bottom-right-radius: 100px !important;
+    border-top-right-radius: 100px !important;
+}
+
+.navButton{
+    font-size: 24px;
+    background-color: white;
+    color:#4d97ff;
+    font-family: 'Nunito Sans', sans-serif !important;
+    border-width: 5px;
+    border-color: seagreen;
+    border-style: solid;
+    opacity: 70%;
+}
+
+.navButton:hover{
+    opacity: 100% !important;
+}
+
+#tutorialPageNumber{
+    font-family: 'Teko', sans-serif;
+    color: white;
+    background-color: #4d97ff;
+    top: 0%;
+    text-align: center;
+    font-size: 30px;
+} 
