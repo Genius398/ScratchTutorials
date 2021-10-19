@@ -70,12 +70,14 @@ body {
     float: left !important;
     border-bottom-left-radius: 100px !important;
     border-top-left-radius: 100px !important;
+    cursor:pointer;
 }
 
 #nextButton{
     float: right !important;
     border-bottom-right-radius: 100px !important;
     border-top-right-radius: 100px !important;
+    cursor:pointer;
 }
 
 .navButton{
@@ -87,10 +89,12 @@ body {
     border-color: seagreen;
     border-style: solid;
     opacity: 70%;
+    cursor:pointer;
 }
 
 .navButton:hover{
     opacity: 100% !important;
+    cursor:pointer;
 }
 
 #tutorialPageNumber{
