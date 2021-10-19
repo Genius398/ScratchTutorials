@@ -1,1 +1,1 @@
-Open-Source code, read COC before contributing
+Open-Source. Read <a href="/docs/CODE_OF_CONDUCT">code of conduct</a> before contributing
