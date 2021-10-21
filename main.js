@@ -64,17 +64,17 @@ function next() {
             
             //Image1
             document.getElementById("tutorialLinks1").innerHTML="Code for pong sprite"; //Change it here
-            document.getElementById("tutorialLinks1").href='ScratchTutorial-2/images/pongImage1.png';//And here
+            document.getElementById("tutorialLinks1").href='/ScratchTutorial-2/images/pongImage1.png';//And here
             //Image1Over
     
             //Image2
             document.getElementById("tutorialLinks2").innerHTML="Code for Paddle sprite"; //Change it here
-            document.getElementById("tutorialLinks2").href='ScratchTutorial-2/images/pongImage2.png';//And here
+            document.getElementById("tutorialLinks2").href='/ScratchTutorial-2/images/pongImage2.png';//And here
             //Image2Over
     
             //Image3
             document.getElementById("tutorialLinks3").innerHTML="Code for line sprite"; //Change it here
-            document.getElementById("tutorialLinks3").href='ScratchTutorial-2/images/pongImage3.png';//And here
+            document.getElementById("tutorialLinks3").href='/ScratchTutorial-2/images/pongImage3.png';//And here
             //Image3Over
         
         
@@ -90,7 +90,7 @@ function next() {
         
         //Image1
         document.getElementById("tutorialLinks1").innerHTML="Math Quiz Tutorial (Image)"; //Change it here
-        document.getElementById("tutorialLinks1").href='ScratchTutorial-2/images/mathQuizCode.png';//And here
+        document.getElementById("tutorialLinks1").href='/ScratchTutorial-2/images/mathQuizCode.png';//And here
         //Image1Over
 
         //Image2
@@ -161,17 +161,17 @@ function previous() {
             
             //Image1
             document.getElementById("tutorialLinks1").innerHTML="Code for pong sprite"; //Change it here
-            document.getElementById("tutorialLinks1").href='ScratchTutorial-2/images/pongImage1.png';//And here
+            document.getElementById("tutorialLinks1").href='/ScratchTutorial-2/images/pongImage1.png';//And here
             //Image1Over
     
             //Image2
             document.getElementById("tutorialLinks2").innerHTML="Code for Paddle sprite"; //Change it here
-            document.getElementById("tutorialLinks2").href='ScratchTutorial-2/images/pongImage2.png';//And here
+            document.getElementById("tutorialLinks2").href='/ScratchTutorial-2/images/pongImage2.png';//And here
             //Image2Over
     
             //Image3
             document.getElementById("tutorialLinks3").innerHTML="Code for line sprite"; //Change it here
-            document.getElementById("tutorialLinks3").href='ScratchTutorial-2/images/pongImage3.png';//And here
+            document.getElementById("tutorialLinks3").href='/ScratchTutorial-2/images/pongImage3.png';//And here
             //Image3Over
         
         
@@ -187,7 +187,7 @@ function previous() {
         
         //Image1
         document.getElementById("tutorialLinks1").innerHTML="Math Quiz Tutorial (Image)"; //Change it here
-        document.getElementById("tutorialLinks1").href='ScratchTutorial-2/images/mathQuizCode.png';//And here
+        document.getElementById("tutorialLinks1").href='/ScratchTutorial-2/images/mathQuizCode.png';//And here
         //Image1Over
 
         //Image2
